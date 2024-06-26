@@ -1,6 +1,6 @@
 package com.runhuo.blog.handler;
 
-import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson2.JSON;
 import com.runhuo.blog.dao.entity.SysUser;
 import com.runhuo.blog.enums.ErrorCode;
 import com.runhuo.blog.service.LoginService;
@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 /**
  * created by IntelliJ IDEA 2022.2.2

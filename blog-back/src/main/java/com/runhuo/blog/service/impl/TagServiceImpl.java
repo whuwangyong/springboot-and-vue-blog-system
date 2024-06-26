@@ -6,7 +6,7 @@ import com.runhuo.blog.dao.mapper.TagMapper;
 import com.runhuo.blog.service.TagService;
 import com.runhuo.blog.vo.TagVo;
 import com.runhuo.blog.vo.result.Result;
-import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

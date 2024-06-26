@@ -1,6 +1,6 @@
 package com.runhuo.blog.service.impl;
 
-import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson2.JSON;
 import com.runhuo.blog.dao.entity.SysUser;
 import com.runhuo.blog.enums.ErrorCode;
 import com.runhuo.blog.service.LoginService;
