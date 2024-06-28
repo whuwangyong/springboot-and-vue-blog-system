@@ -8,7 +8,6 @@ import com.runhuo.blog.service.SysUserService;
 import com.runhuo.blog.utils.JWTUtils;
 import com.runhuo.blog.vo.params.LoginParams;
 import com.runhuo.blog.vo.result.Result;
-
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -103,7 +102,7 @@ public class LoginServiceImpl implements LoginService {
         sysUser.setStatus("");
         sysUser.setEmail("");
         this.sysUserService.save(sysUser);
-        return null;
+        return Result.success(account + "注册成功");
     }
 
     @Override
